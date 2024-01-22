@@ -39,21 +39,6 @@ ul {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-#datos-evan {
-    background-color: #d8d8c0;
-    padding: 20px;
-}
-
-#datos-evan img {
-    width: 250px;
-    height: auto;
-    border: 2px solid #ddd; 
-    border-radius: 8px; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-    margin: 0 auto 15px; /* Centrar horizontalmente y agregar margen inferior */
-    display: block; /* Asegurar que la imagen sea un bloque para aplicar márgenes */
-}
-
 
 #datos {
     background-color: #e0e0e0;
@@ -209,4 +194,16 @@ img {
 
 img:hover {
     transform: scale(1.1); 
+}
+
+#espero {
+    background-color: #f0f0d8;
+    padding: 20px;
+    text-align: center;
+}
+
+#espero img {
+    width: 200px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
