@@ -37,8 +37,12 @@ nav ul li {
 
 nav a {
     text-decoration: none;
-    color: #fff;
+    color: #2176ff; 
     font-weight: bold;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* Estilo para el contenido principal */
@@ -48,8 +52,32 @@ section {
 
 /* Estilo para el pie de página */
 footer {
-    background-color: #333;
+    background-color: #e0e0e0;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     color: #fff;
-    padding: 1em;
     text-align: center;
+}
+
+#contenido {
+    background-color: #e0e0e0;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #2176ff;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #000000;
+    margin-bottom: 15px;
 }
