@@ -57,7 +57,7 @@ img {
 }
 
 img:hover {
-    transform: scale(1.1); 
+    transform: scale(0.9); 
 }
 
 
@@ -73,6 +73,12 @@ footer {
 }
 
 #contenido {
+    background-color: #f0f0d8;
+    padding: 20px;
+    text-align: center;
+}
+
+#cocina {
     background-color: #f0f0d8;
     padding: 20px;
     text-align: center;
