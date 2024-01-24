@@ -102,3 +102,17 @@ p {
     color: #000000;
     margin-bottom: 15px;
 }
+
+.link-con-flecha {
+    position: relative;
+    display: inline-block;
+}
+
+.link-con-flecha::after {
+    content: "\2192\00a0"; /* Código unicode para la flecha a la derecha con espacio adicional */
+    font-size: 1.2em;
+    margin-left: 5px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
