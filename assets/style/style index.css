@@ -114,14 +114,46 @@ p {
 }
 
 #enlace-externo {
-    background-image: url('/assets/Media/fondo-enlace-externo.jpg'); /* Ruta de la imagen de fondo */
-    background-size: cover; /* Cubre todo el contenedor */
-    background-position: center; /* Centra la imagen */
-    color: #fff; /* Color del texto para asegurarse de que sea legible en el fondo */
-    text-align: center; /* Centra el texto */
-    padding: 50px; /* Ajusta el espaciado interno según sea necesario */
+    background-image: url('/assets/Media/fondo-enlace-externo.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    color: #fff; 
+    text-align: center; 
+    padding: 50px; 
 }
 
 #enlace-externo p {
-    font-size: 1.2em; /* Ajusta el tamaño del texto según sea necesario */
+    font-size: 1.2em; 
+}
+
+.botones-musica {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* Altura del cuadro, ajusta según sea necesario */
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    margin: 20px; /* Espacio alrededor del cuadro */
+    padding: 20px; /* Espaciado interno del cuadro */
+}
+
+.botones-musica button {
+    width: 200px; /* Ajusta según sea necesario */
+    height: 100px; /* Ajusta según sea necesario */
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-position: center;
+    background-size: cover;
+    text-align: center; /* Centrar el texto */
+    overflow: hidden; /* Ocultar el desbordamiento de la imagen */
+}
+
+.botones-musica button:hover {
+    background-color: #165aad;
+    transform: scale(1.1); /* Escala del 110% al pasar el cursor */
 }
