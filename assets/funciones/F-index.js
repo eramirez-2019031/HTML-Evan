@@ -1,5 +1,5 @@
 var canciones = [
-    { id: 'btnCancion1', ruta: '/assets/Media/Skyefall.mp3', imagen: '/assets/Media/adele.jpg', reproduciendo: false },
+    { id: 'btnCancion1', ruta: '/assets/Media/Skyfall.mp3', imagen: '/assets/Media/adele.jpg', reproduciendo: false },
     { id: 'btnCancion2', ruta: '/assets/Media/Tu Falta de Querer.mp3', imagen: '/assets/Media/mon.jpg', reproduciendo: false },
     { id: 'btnCancion3', ruta: '/assets/Media/Enamorado Tuyo.mp3', imagen: '/assets/Media/4.jpg', reproduciendo: false }
 ];
