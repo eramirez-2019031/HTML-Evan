@@ -28,9 +28,11 @@ section {
 
 #galeria {
     margin: 20px;
-    background-color: #f4f4f4; 
     padding: 15px; 
     text-align: center; 
+    position: relative; 
+    background-image: url('/assets/Media/fondo.jpg'); 
+    background-repeat: repeat; 
 }
 
 .image-container {
@@ -47,7 +49,7 @@ section {
 
 img {
     max-width: 100%;
-    
+    height: auto;
     border: 2px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -73,12 +75,6 @@ footer {
 }
 
 #contenido {
-    background-color: #f0f0d8;
-    padding: 20px;
-    text-align: center;
-}
-
-#cocina {
     background-color: #f0f0d8;
     padding: 20px;
     text-align: center;
@@ -115,4 +111,17 @@ p {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+}
+
+#enlace-externo {
+    background-image: url('/assets/Media/fondo-enlace-externo.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Cubre todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    color: #fff; /* Color del texto para asegurarse de que sea legible en el fondo */
+    text-align: center; /* Centra el texto */
+    padding: 50px; /* Ajusta el espaciado interno según sea necesario */
+}
+
+#enlace-externo p {
+    font-size: 1.2em; /* Ajusta el tamaño del texto según sea necesario */
 }
