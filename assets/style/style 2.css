@@ -117,17 +117,19 @@ section {
     border: 5px solid #ffa500; /* Marco de color naranja (puedes cambiarlo) */
 }
 
-.overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
-    text-align: center;
+.description-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.overlay p {
-    color: #fff;
-    padding: 10px;
-    margin: 0;
+.description {
+    max-width: 300px; /* Ancho máximo */
+    text-align: center;
+    padding: 20px;
+}
+
+.description h2 {
+    margin-bottom: 10px;
 }
