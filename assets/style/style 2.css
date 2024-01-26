@@ -1,39 +1,93 @@
-
-* {
+body, html {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
-
-
-body {
-    font-family: 'Arial', sans-serif;
-}
-
-
-.header {
-    background-color: #333; 
-    padding: 10px 20px; 
-    display: flex;
-    justify-content: space-between; 
-    align-items: center; 
-}
-
 
 .logo {
-    max-height: 50px; 
+    display: flex;
+    top: 50px;
+    right: 50px;
+    align-items: end;
 }
 
-
-nav a {
-    color: #fff; /* Color for the navigation links */
-    margin: 0 15px; /* Margin between navigation links */
-    text-decoration: none; /* Remove underline from links */
+/* Estilos para el header */
+header {
+    background-color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-
-.textos-header {
-    color: #fff; /* Color for the text in the header */
-    text-align: right; /* Align text to the right */
+.logo img {
+    width: 100px;
+    height: auto;
 }
 
+/* Estilos para la barra de navegación */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 100px 0;
+    text-align: center;
+}
+
+#seccion1 {
+    background-image: url('/assets/Media/fondok.jpg');
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative; /* Necesario para posicionar correctamente .overlay-text */
+}
+
+#seccion2, #seccion3 {
+    background-color: bisque;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Color de fondo semitransparente (negro con 50% de opacidad) */
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #fff; /* Borde blanco */
+}
+
+.overlay-text h1,
+.overlay-text p.subtle-text {
+    color: #fff;
+    font-family: 'Cursive', sans-serif; /* Puedes cambiar la fuente según tus preferencias */
+    font-style: italic; /* Estilo cursiva */
+}
+
+.overlay-text p.subtle-text {
+    margin-top: 10px;
+}

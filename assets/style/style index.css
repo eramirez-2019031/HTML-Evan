@@ -1,10 +1,10 @@
-/* Reset de estilos para eliminar márgenes y rellenos predeterminados */
+
 body, h1, h2, p, ul {
     margin: 0;
     padding: 0;
 }
 
-/* Estilo general para el cuerpo de la página */
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
@@ -12,7 +12,7 @@ body {
     line-height: 1.6;
 }
 
-/* Estilo para el encabezado */
+
 header {
     background-color: #333;
     color: #fff;
@@ -21,7 +21,7 @@ header {
 }
 
 
-/* Estilo para el contenido principal */
+
 section {
     margin: 20px;
 }
@@ -97,20 +97,6 @@ p {
     line-height: 1.6;
     color: #000000;
     margin-bottom: 15px;
-}
-
-.link-con-flecha {
-    position: relative;
-    display: inline-block;
-}
-
-.link-con-flecha::after {
-    content: "\2192\00a0"; /* Código unicode para la flecha a la derecha con espacio adicional */
-    font-size: 1.2em;
-    margin-left: 5px;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
 }
 
 #enlace-externo {

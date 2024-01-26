@@ -1,22 +1,64 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kinal Academy</title>
-    <link rel="stylesheet" href="/assets/style/style 2.css"> <!-- Updated link to the CSS file -->
+    <title>Mi Página Web</title>
+    <link rel="stylesheet" href="/assets/style/style 2.css">
 </head>
+
 <body>
-    <header class="header">
-        <img src="/assets/Media/Logo Kinal.png" alt="Left Logo" class="logo">
+
+    <header>
+        <div class="logo">
+            <a href="#seccion1">
+                <img src="/assets/Media/Logo Kinal.png" alt="Logo">
+            </a>
+        </div>
         <nav>
-            <a href="#">Inicio</a>
-            <a href="#">Cursos</a>
-            <a href="#">Login</a>
+            <ul class="nav-links">
+                <li><a href="#seccion1">Inicio</a></li>
+                <li><a href="#seccion2">Sección 2</a></li>
+                <li><a href="#seccion3">Sección 3</a></li>
+                <li><a href="#seccion4">Sección 4</a></li>
+                <li><a href="#seccion5">Sección 5</a></li>
+            </ul>
         </nav>
-        <img src="/assets/Media/banc.png" alt="Right Logo">
-        <section class="textos-header">
-        </section>
     </header>
+
+    <main>
+        <section id="seccion1">
+            <div id="image-container" class="fade-in-out">
+                <div class="overlay-text">
+                    <h1>El Trabajo Bien Hecho</h1>
+                    <p class="subtle-text">Kinal es un Centro Educativo privado, no lucrativo, dirigido a la formación 
+                        técnica profesional de jóvenes y adultos, de beneficio 
+                        colectivo y asistencia social en favor de los sectores más necesitados de la comunidad.
+                        Nuestro valor fundamental es enseñar a realizar el trabajo bien hecho, que sea la base de la superación de alumnos y el medio para servir a los demás.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="seccion2">
+            <h2>Sección 2</h2>
+        </section>
+
+        <section id="seccion3" class="parallax">
+            <h2>Sección 3</h2>
+        </section>
+
+        <section id="seccion4">
+            <h2>Sección 4</h2>
+        </section>
+
+        <section id="seccion5" class="parallax">
+            <h2>Sección 5</h2>
+        </section>
+    </main>
+
+
 </body>
+
 </html>
