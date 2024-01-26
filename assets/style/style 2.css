@@ -91,3 +91,43 @@ section {
 .overlay-text p.subtle-text {
     margin-top: 10px;
 }
+
+#seccion2 {
+    background-color: bisque;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.image-box {
+    position: relative;
+    margin: 10px;
+    max-width: 300px; /* Ancho máximo */
+}
+
+.image-box img {
+    width: 100%;
+    height: auto;
+    border: 5px solid #ffa500; /* Marco de color naranja (puedes cambiarlo) */
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+    text-align: center;
+}
+
+.overlay p {
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+}
