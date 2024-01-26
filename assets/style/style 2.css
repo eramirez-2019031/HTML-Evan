@@ -11,7 +11,7 @@ body, html {
     align-items: end;
 }
 
-/* Estilos para el header */
+
 header {
     background-color: #333;
     padding: 20px;
@@ -25,7 +25,7 @@ header {
     height: auto;
 }
 
-/* Estilos para la barra de navegación */
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -49,7 +49,7 @@ nav {
     font-size: 18px;
 }
 
-/* Estilos para las secciones */
+
 section {
     padding: 100px 0;
     text-align: center;
@@ -63,7 +63,7 @@ section {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    position: relative; /* Necesario para posicionar correctamente .overlay-text */
+    position: relative; 
 }
 
 #seccion2, #seccion3 {
@@ -75,17 +75,17 @@ section {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.5); /* Color de fondo semitransparente (negro con 50% de opacidad) */
+    background-color: rgba(0, 0, 0, 0.5); 
     padding: 20px;
     text-align: center;
-    border: 2px solid #fff; /* Borde blanco */
+    border: 2px solid #fff; 
 }
 
 .overlay-text h1,
 .overlay-text p.subtle-text {
     color: #fff;
-    font-family: 'Cursive', sans-serif; /* Puedes cambiar la fuente según tus preferencias */
-    font-style: italic; /* Estilo cursiva */
+    font-family: 'Cursive', sans-serif; 
+    font-style: italic; 
 }
 
 .overlay-text p.subtle-text {
@@ -108,13 +108,13 @@ section {
 .image-box {
     position: relative;
     margin: 10px;
-    max-width: 300px; /* Ancho máximo */
+    max-width: 300px; 
 }
 
 .image-box img {
     width: 100%;
     height: auto;
-    border: 5px solid #ffa500; /* Marco de color naranja (puedes cambiarlo) */
+    border: 5px solid #ffa500; 
 }
 
 .description-container {
@@ -125,11 +125,180 @@ section {
 }
 
 .description {
-    max-width: 300px; /* Ancho máximo */
+    max-width: 300px; 
     text-align: center;
     padding: 20px;
 }
 
 .description h2 {
     margin-bottom: 10px;
+}
+
+#seccion3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px; 
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#seccion4 {
+    padding: 100px 0;
+    text-align: center;
+    background-color: #f0f0d8; 
+}
+
+.section-title {
+    color: #000; 
+    font-style: italic; 
+}
+
+.image-list-container {
+    overflow-x: auto; 
+    margin-top: 20px;
+}
+
+.image-list {
+    white-space: nowrap; 
+}
+
+.image-list img {
+    width: 200px; 
+    height: auto;
+    margin-right: 10px; 
+    transition: transform 0.3s; 
+}
+
+.image-list img:hover {
+    transform: scale(0.9); 
+}
+
+#seccion5 {
+    background-color: #f0f0d8;
+    padding: 100px 0;
+    text-align: center;
+    color: #000;
+    transition: color 0.5s;
+}
+
+#seccion5:hover {
+    color: #00bcd4;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100%;
+}
+
+.content-left {
+    max-width: 50%;
+    margin-right: 20px; 
+}
+
+.content-right {
+    max-width: 50%;
+    text-align: left;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; 
+}
+
+.section-title {
+    font-style: italic;
+    color: #000;
+}
+
+.section-paragraph {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #000;
+    max-width: 300px; 
+}
+
+#open-donation-form {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #00bcd4;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+#open-donation-form:hover {
+    background-color: #007c89;
+}
+
+.hidden {
+    display: none;
+}
+
+#donaciones {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #f0f0d8;
+    border-radius: 5px;
+    background-color: #f0f0d8;
+}
+
+#donaciones label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+#donaciones input,
+#donaciones select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+#donaciones button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#donaciones button:hover {
+    background-color: #007c89;
+}
+
+#seccion6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.rectangulo {
+    width: 45%;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.rectangulo h2 {
+    font-size: 30px; 
+    margin-bottom: 10px;
+}
+
+.rectangulo p {
+    font-size: 16px;
+    margin: 0;
 }

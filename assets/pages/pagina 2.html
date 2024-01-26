@@ -19,20 +19,20 @@
         <nav>
             <ul class="nav-links">
                 <li><a href="#seccion1">Inicio</a></li>
-                <li><a href="#seccion2">Sección 2</a></li>
-                <li><a href="#seccion3">Sección 3</a></li>
-                <li><a href="#seccion4">Sección 4</a></li>
-                <li><a href="#seccion5">Sección 5</a></li>
+                <li><a href="#seccion2">Cursos</a></li>
+                <li><a href="#seccion4">Patrocinadores</a></li>
+                <li><a href="#seccion5">Donaciones</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section id="seccion1">
-            <div id="image-container" class="fade-in-out">
-                <div class="overlay-text">
-                    <h1>El Trabajo Bien Hecho</h1>
-                </div>
+        <section id="seccion1" style="background-image: url('/assets/Media/fondok.jpg'); width: 100%; height: 400px; text-align: center; background-size: cover; background-position: center; background-repeat: no-repeat; position: relative;">
+            <a href="/assets/index.html" style="position: absolute; top: 20px; left: 20px;">
+                <img src="/assets/Media/regresar.png" alt="Volver al índice" style="width: 50px; height: auto;">
+            </a>
+            <div class="overlay-text" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: rgba(0, 0, 0, 0.5); padding: 20px; text-align: center; border: 2px solid #fff;">
+                <h1>El Trabajo Bien Hecho</h1>
             </div>
         </section>
 
@@ -40,7 +40,7 @@
             <h1>Cursos</h1>
             <div class="image-container">
                 <div class="image-box">
-                    <img src="/assets/Media/Basico.jpg" alt="Ciclo Básico">
+                    <img src="/assets/Media/Basico.webp" alt="Ciclo Básico">
                 </div>
                 <div class="image-box">
                     <img src="/assets/Media/marco.webp" alt="Diversificado">
@@ -65,18 +65,82 @@
             </div>
         </section>
 
-        <section id="seccion3" class="parallax">
-            <h2>Sección 3</h2>
+        <section id="seccion3" class="parallax" style="background-image: url('/assets/Media/arribakinal.webp');">
         </section>
 
         <section id="seccion4">
-            <h2>Sección 4</h2>
+            <h1 class="section-title">Nuestros Patrocinadores</h1>
+            <div class="image-list-container">
+                <div class="image-list">
+                    <!-- Aquí puedes agregar tus imágenes -->
+                    <img src="/assets/Media/oracle.png" alt="Imagen 1">
+                    <img src="/assets/Media/honda.png" alt="Imagen 2">
+                    <img src="/assets/Media/auto.png" alt="Imagen 3">
+                    <img src="/assets/Media/cisco.png" alt="Imagen 4">
+                    <img src="/assets/Media/tef.png" alt="Imagen 5">
+                    <img src="/assets/Media/Dy.png" alt="Imagen 6">
+                    <img src="/assets/Media/pearson.png" alt="Imagen 7">
+                    <img src="/assets/Media/certiport.webp" alt="Imagen 8">
+                    <img src="/assets/Media/microsoft.png" alt="Imagen 9">
+                    <img src="/assets/Media/kry.png" alt="Imagen 10">
+                </div>
+            </div>
+        </section>
+        <section id="seccion5" class="parallax">
+            <div class="content-container">
+                <div class="content-left">
+                    <h2 class="section-title">Necesitamos más jóvenes de este lado</h2>
+                    <p class="section-paragraph">Cada donación que haces ayuda a la educación de un joven guatemalteco de escasos recursos a tener una educación de calidad.</p>
+                </div>
+                <div class="image-container">
+                    <img src="/assets/Media/kinal,la secuela.webp" alt="Descripción de la imagen">
+                </div>
+            </div>
+        
+            <div id="donation-form">
+                <form id="donaciones">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+        
+                    <label for="correo">Correo:</label>
+                    <input type="email" id="correo" name="correo" required>
+        
+                    <label for="tipo-cuenta">Tipo de cuenta:</label>
+                    <select id="tipo-cuenta" name="tipo-cuenta" required>
+                        <option value="personal">Personal</option>
+                        <option value="empresarial">Empresarial</option>
+                    </select>
+        
+                    <label for="monto">Monto a donar:</label>
+                    <input type="number" id="monto" name="monto" required>
+        
+                    <button type="button" id="accept-donation">Aceptar</button>
+                </form>
+            </div>
         </section>
 
-        <section id="seccion5" class="parallax">
-            <h2>Sección 5</h2>
+        <section id="seccion6" style="background-color: #f0f0d8; padding: 50px 0; text-align: center;">
+            <div class="rectangulo" style="background-color: #3498db;">
+                <h2>25k ADULTOS</h2>
+                <p>Fueron ayudados en su carrera tecnica.</p>
+            </div>
+            <div class="rectangulo" style="background-color: #e74c3c;">
+                <h2>1500 JOVENES</h2>
+                <p>Cursaron su ciclo basico.</p>
+            </div>
+            <div class="rectangulo" style="background-color: #2ecc71;">
+                <h2>6k ADOLECENTES</h2>
+                <p>Resivieron su Diversificado.</p>
+            </div>
+            <div class="rectangulo" style="background-color: #f39c12;">
+                <h2>31.5K PERSONAS</h2>
+                <p>Fueron apoyadas en la Fundacion Kinal.</p>
+            </div>
         </section>
+
     </main>
+
+    <script src="/assets/funciones/F-academy"></script>
 
 </body>
 

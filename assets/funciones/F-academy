@@ -1,0 +1,19 @@
+// donation-script.js
+
+document.addEventListener('DOMContentLoaded', function () {
+    var nombreInput = document.getElementById('nombre');
+    var montoInput = document.getElementById('monto');
+    var acceptButton = document.getElementById('accept-donation');
+
+    acceptButton.addEventListener('click', function () {
+        var nombre = nombreInput.value;
+        var monto = montoInput.value;
+
+        if (nombre && monto) {
+            var mensaje = 'Gracias, ' + nombre + ', por tu donación de $' + monto + '.';
+            alert(mensaje);
+        } else {
+            alert('Por favor, completa todos los campos antes de continuar.');
+        }
+    });
+});
